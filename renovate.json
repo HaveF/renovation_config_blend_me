@@ -8,8 +8,7 @@
     ":label(dependencies)",
     ":assignee(HaveF)",
     ":timezone(Asia/Shanghai)",
-    "schedule:daily",
-    "helpers:followTypescriptNext"    
+    "schedule:daily"
   ],
   "npmrc": "registry=https://registry.npm.taobao.org\npuppeteer_download_host=https://npm.taobao.org/mirrors"
 }
