@@ -10,5 +10,8 @@
     ":timezone(Asia/Shanghai)",
     "schedule:daily"
   ],
-  "npmrc": "registry=https://registry.npm.taobao.org\npuppeteer_download_host=https://npm.taobao.org/mirrors"
+  "npmrc": "registry=https://registry.npm.taobao.org\npuppeteer_download_host=https://npm.taobao.org/mirrors",
+  "pipenv": {
+    "enabled": true
+  }  
 }
