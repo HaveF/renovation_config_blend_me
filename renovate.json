@@ -6,6 +6,7 @@
     "group:allNonMajor",
     ":noUnscheduledUpdates",
     ":label(dependencies)",
+    ":unpublishSafe",
     ":assignee(HaveF)",
     ":timezone(Asia/Shanghai)",
     "schedule:daily"
