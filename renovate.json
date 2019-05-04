@@ -2,7 +2,8 @@
   "extends": [
     "config:base",
     ":rebaseStalePrs",    
-    ":automergeMinor",   
+    ":automergeMinor",
+    "group:definitelyTyped",
     "group:allNonMajor",
     ":noUnscheduledUpdates",
     ":label(dependencies)",
