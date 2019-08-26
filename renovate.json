@@ -14,5 +14,7 @@
   ],
   "pipenv": {
     "enabled": true
-  }  
+  },
+  "prCreation": "not-pending",
+  "stabilityDays: 3
 }
