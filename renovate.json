@@ -14,6 +14,5 @@
   ],
   "pipenv": {
     "enabled": true
-  },
-  "prCreation": "not-pending"
+  }
 }
