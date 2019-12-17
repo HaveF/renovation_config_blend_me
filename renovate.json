@@ -8,6 +8,7 @@
     ":noUnscheduledUpdates",
     ":label(dependencies)",
     ":unpublishSafe",
+    ":autodetectPinVersions",
     ":assignee(HaveF)",
     ":timezone(Asia/Shanghai)",
     "schedule:daily"
