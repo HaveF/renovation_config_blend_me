@@ -15,5 +15,6 @@
   ],
   "pipenv": {
     "enabled": true
-  }
+  },
+  "npmrc": "//registry.npm.taobao.org"
 }
