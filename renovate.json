@@ -16,5 +16,5 @@
   "pipenv": {
     "enabled": true
   },
-  "npmrc": "//registry.npm.taobao.org"
+  "npmrc": "registry=https://registry.npm.taobao.org\n@havef:registry=https://npm.pkg.github.com"
 }
