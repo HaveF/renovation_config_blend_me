@@ -5,7 +5,6 @@
     ":automergeMinor",
     "group:allNonMajor",
     "group:definitelyTyped",    
-    ":noUnscheduledUpdates",
     ":label(dependencies)",
     ":unpublishSafe",
     ":autodetectPinVersions",
