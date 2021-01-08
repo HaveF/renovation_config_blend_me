@@ -8,9 +8,11 @@
     ":label(dependencies)",
     ":unpublishSafe",
     ":autodetectPinVersions",
-    ":assignee(HaveF)"
+    ":assignee(HaveF)",
+    "schedule:nonOfficeHours"
   ],
   "pipenv": {
     "enabled": true
-  }
+  },
+  "timezone": "	Asia/Shanghai"
 }
