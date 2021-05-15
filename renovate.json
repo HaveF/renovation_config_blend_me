@@ -9,7 +9,7 @@
     ":unpublishSafe",
     ":autodetectPinVersions",
     ":assignee(HaveF)",
-    "schedule:nonOfficeHours"
+    "schedule:earlyMondays"
   ],
   "pipenv": {
     "enabled": true
