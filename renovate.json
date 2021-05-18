@@ -1,5 +1,6 @@
 {
   "extends": [
+    "schedule:earlyMondays",
     "config:base",
     ":rebaseStalePrs",    
     ":automergeMinor",
@@ -8,8 +9,7 @@
     ":label(dependencies)",
     ":unpublishSafe",
     ":autodetectPinVersions",
-    ":assignee(HaveF)",
-    "schedule:earlyMondays"
+    ":assignee(HaveF)"
   ],
   "pipenv": {
     "enabled": true
