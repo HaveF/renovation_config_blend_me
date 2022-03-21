@@ -1,7 +1,7 @@
 {
   "extends": [
-    "schedule:earlyMondays",
     "config:base",
+    "schedule:earlyMondays",
     ":rebaseStalePrs",    
     ":automergeMinor",
     "group:allNonMajor",
