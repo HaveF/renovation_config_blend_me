@@ -1,7 +1,6 @@
 {
   "extends": [
     "config:base",
-    "schedule:earlyMondays",
     ":rebaseStalePrs",    
     ":automergeMinor",
     "group:allNonMajor",
@@ -14,5 +13,8 @@
   "pipenv": {
     "enabled": true
   },
-  "timezone": "Asia/Shanghai"
+  "timezone": "Asia/Shanghai",
+  "schedule": [
+    "after 12pm and before 2pm on Monday"
+  ]
 }
