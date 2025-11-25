@@ -16,5 +16,8 @@
   "timezone": "Asia/Shanghai",
   "schedule": [
     "after 12pm and before 2pm on Monday"
-  ]
+  ],
+  "minimumReleaseAge": "15 days",
+  "internalChecksFilter": "strict",
+  "prCreation": "not-pending"
 }
