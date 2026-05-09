@@ -1,13 +1,10 @@
 {
   "extends": [
-    "config:base",
+    "config:recommended",
     ":rebaseStalePrs",    
-    ":automergeMinor",
-    "group:allNonMajor",
     "group:definitelyTyped",    
     ":label(dependencies)",
-    ":unpublishSafe",
-    ":autodetectPinVersions",
+    "npm:unpublishSafe",
     ":assignee(HaveF)"
   ],
   "pipenv": {
@@ -19,5 +16,20 @@
   ],
   "minimumReleaseAge": "15 days",
   "internalChecksFilter": "strict",
-  "prCreation": "not-pending"
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "patch",
+        "pin"
+      ],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "matchCurrentVersion": "!/^0\\./",
+      "automerge": true
+    }
+  ]
 }
